@@ -150,10 +150,10 @@ if &t_Co > 255
    hi String          ctermfg=144
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
-   hi Cursor          ctermfg=16  ctermbg=253
+   hi Cursor          ctermfg=16  ctermbg=255
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
-   hi Delimiter       ctermfg=241
+   hi Delimiter       ctermfg=249
 
    hi DiffAdd                     ctermbg=24
    hi DiffChange      ctermfg=181 ctermbg=239
@@ -233,8 +233,8 @@ if &t_Co > 255
    hi SpecialKey      ctermfg=59
 
    if exists("g:rehash256") && g:rehash256 == 1
-       hi Normal       ctermfg=252 ctermbg=234
-       hi CursorLine               ctermbg=236   cterm=none
+       hi Normal       ctermfg=254 ctermbg=234
+       hi CursorLine               ctermbg=241   cterm=none
        hi CursorLineNr ctermfg=208               cterm=none
 
        hi Boolean         ctermfg=141
@@ -247,7 +247,7 @@ if &t_Co > 255
        hi DiffDelete      ctermfg=125 ctermbg=233
 
        hi Directory       ctermfg=154               cterm=bold
-       hi Error           ctermfg=222 ctermbg=233
+       hi Error           ctermfg=222 ctermbg=233   cterm=bold
        hi Exception       ctermfg=154               cterm=bold
        hi Float           ctermfg=141
        hi Function        ctermfg=154
@@ -264,7 +264,7 @@ if &t_Co > 255
        hi Title           ctermfg=203
        hi Visual                      ctermbg=238
 
-       hi Comment         ctermfg=244
+       hi Comment         ctermfg=247
        hi LineNr          ctermfg=239 ctermbg=235
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
